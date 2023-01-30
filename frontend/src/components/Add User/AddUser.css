@@ -1,0 +1,696 @@
+.adminProfile-container {
+  width: 609px;
+  height: 919px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.adminProfile-profile1 {
+  top: 15px;
+  left: 122px;
+  width: 382px;
+  height: 544px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 32px;
+  background-color: var(--dl-color-light-gray0);
+  transform: scale(1.2, 1.2);
+}
+.adminProfile-group23 {
+  top: 65px;
+  left: 87px;
+  width: 221px;
+  height: 28px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.adminProfile-text {
+  color: var(--dl-color-light-gray11);
+  width: 221px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 28px;
+}
+.adminProfile-bigoutline-default {
+  top: 127px;
+  left: 40px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminProfile-container1 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+}
+.adminProfile-value {
+  top: 24px;
+  left: 0px;
+  width: 342px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text02 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-label {
+  top: 2px;
+  left: 12px;
+  width: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame89 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text04 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-container2 {
+  top: 201px;
+  left: 40px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.adminProfile-bigoutline-default1 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminProfile-label1 {
+  top: 2px;
+  left: 12px;
+  width: 58px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame891 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text06 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-value1 {
+  top: 24px;
+  left: 0px;
+  width: 342px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text07 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-bigoutline-default2 {
+  top: 275px;
+  left: 24px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminProfile-container3 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: dotted;
+  border-width: 1px;
+}
+.adminProfile-value2 {
+  top: 24px;
+  left: 0px;
+  width: 342px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text08 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-label2 {
+  top: 2px;
+  left: 12px;
+  width: 34px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame892 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text10 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-bigoutline-select {
+  top: 423px;
+  left: 24px;
+  width: 163px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminProfile-container4 {
+  top: 0px;
+  left: 0px;
+  width: 163px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: dotted;
+  border-width: 1px;
+}
+.adminProfile-value3 {
+  top: 24px;
+  left: 0px;
+  width: 163px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text12 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-label3 {
+  top: 2px;
+  left: 12px;
+  width: 45px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame893 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text14 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-bigoutline-default3 {
+  top: 423px;
+  left: 203px;
+  width: 163px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminProfile-container5 {
+  top: 0px;
+  left: 0px;
+  width: 163px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: dotted;
+  border-width: 1px;
+}
+.adminProfile-value4 {
+  top: 24px;
+  left: 0px;
+  width: 163px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text16 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-label4 {
+  top: 2px;
+  left: 12px;
+  width: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame894 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text18 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-bigoutline-default4 {
+  top: 497px;
+  left: 24px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+}
+.adminProfile-container6 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 2px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.adminProfile-value5 {
+  top: 24px;
+  left: 0px;
+  width: 342px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text20 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-label5 {
+  top: 2px;
+  left: 12px;
+  width: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame895 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text22 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-button {
+  top: 70px;
+  left: 10px;
+  width: 342px;
+  display: flex;
+  padding: 12.5px 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-light-primary);
+}
+
+.userRadio {
+  top: 251px;
+  left: -100px;
+  width: 600px;
+  display: flex;
+  padding: 12.5px 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-light-primary);
+}
+.adminProfile-text24 {
+  color: var(--dl-color-light-gray0);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-group71 {
+  top: 349px;
+  left: 24px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.adminProfile-bigoutline-default5 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminProfile-container7 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: dotted;
+  border-width: 1px;
+}
+.adminProfile-value6 {
+  top: 24px;
+  left: 0px;
+  width: 342px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+.adminProfile-text26 {
+  color: var(--dl-color-light-gray10);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.adminProfile-label6 {
+  top: 2px;
+  left: 12px;
+  width: 131px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.adminProfile-frame896 {
+  display: flex;
+  padding: 6px 4px 1px 4px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.adminProfile-text28 {
+  color: var(--dl-color-light-gray7);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}

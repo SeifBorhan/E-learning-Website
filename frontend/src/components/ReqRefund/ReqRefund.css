@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+.body {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  width: 1100px;
+  flex-direction: column;
+  min-height: 30vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.courseR {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  height: 150px;
+  width: 900px;
+}
+
+.courseR:hover {
+  cursor: pointer;
+}
+
+.courseR h6 {
+  opacity: 0.6;
+  margin: -15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.courseR h2 {
+  letter-spacing: 0.5px;
+  margin: 20px -15px;
+  font-size: 24px;
+}
+
+.courseR-preview {
+  background-color: #a52828;
+  color: #fff;
+  padding: 30px;
+  max-width: 650px;
+}
+
+.courseR-preview a {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin: 0px -15px;
+  text-decoration: none;
+}
+
+.courseR-info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.btn {
+  background-color: #2a265f;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  letter-spacing: 1px;
+}
+
+.rateRStyle {
+  height: 22px;
+  position: relative;
+  left: -90px;
+  top: 40px;
+}
+
+.pushTextR {
+  position: relative;
+  left: 20px;
+}
+
+.pushText2R {
+  position: relative;
+  bottom: 23px;
+}
+.pushTextR3 {
+    position: relative;
+    bottom: -10px;
+  }
+.ar{
+    position: relative;
+    left : 500px ;
+    bottom: 50px;
+}

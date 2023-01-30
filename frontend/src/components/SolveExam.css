@@ -1,0 +1,42 @@
+.solve-exam-container {
+  width: 100%;
+  height: 840px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.solve-exam-container1 {
+  width: 620px;
+  height: 215px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.solve-exam-container2 {
+  width: 620px;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+}
+.solve-exam-container3 {
+  width: 620px;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+}
+.solve-exam-container4 {
+  flex: 0 0 auto;
+  width: 620px;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+}

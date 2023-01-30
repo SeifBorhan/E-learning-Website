@@ -1,0 +1,25 @@
+.containerSubtitleVideo {
+  background-color: rgb(238, 238, 238);
+  max-width: 400px;
+  height: 65px;
+}
+.containerSubtitleVideo:hover {
+  cursor: pointer;
+  background-color: rgb(208, 208, 208);
+}
+
+.containerSubtitleVideoText {
+  position: relative;
+  top: -33px;
+  left: 50px;
+  font-size: 14px;
+}
+.containerSubtitleVideoIcon {
+  position: relative;
+  top: -32px;
+  left: 48px;
+}
+
+.containerSubtitleVideoIconText {
+  font-size: 12px;
+}

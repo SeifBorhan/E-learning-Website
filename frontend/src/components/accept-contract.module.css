@@ -1,0 +1,224 @@
+.contract-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+}
+.contract-frame03privacy-t-o-s-screen {
+  width: 377px;
+  top: 10px;
+  height: 650px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-gray-white);
+  border-radius: 1px;
+  /* border-style: solid; */
+  border-color: rgb(200, 200, 200);
+  border-radius: 8px;
+}
+.contract-container1 {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 88px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.contract-navigation-default-icons {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 88px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.contract-center {
+  top: 44px;
+  left: 94px;
+  width: 188px;
+  height: 0px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.contract-text {
+  top: 12px;
+  left: 20px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Abel;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.contract-container2 {
+  top: 128.796875px;
+  left: 25px;
+  width: 325px;
+  height: 508.25px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.contract-group3 {
+  top: 0px;
+  left: 0px;
+  width: 325px;
+  height: 508.2570495605469px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.contract-text02 {
+  top: 38px;
+  width: 325px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.contract-text04 {
+  color: var(--dl-color-danger-300);
+}
+.contract-text12 {
+  width: 325px;
+  top: -20px;
+  height: auto;
+  position: absolute;
+  font-size: 17px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Abel;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.contract-container3 {
+  top: 510px;
+  left: 25px;
+  width: 325px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.contract-normal-primary {
+  top: 0px;
+  left: 0px;
+  width: 325px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.contract-text14 {
+  top: 14px;
+  left: 0.008544921875px;
+  width: 325px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.contract-container4 {
+  top: 570px;
+  left: 25px;
+  width: 325px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.contract-ghost-pressed {
+  top: 0px;
+  left: 0px;
+  width: 325px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: #ffa9db;
+  border-style: solid;
+  border-width: 1px;
+}
+.contract-text15 {
+  top: 14px;
+  width: 325px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.contract-ghost-pressed:hover {
+  cursor: pointer;
+}
+.contract-normal-primary:hover {
+  cursor: pointer;
+}

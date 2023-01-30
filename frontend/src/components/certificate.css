@@ -1,0 +1,181 @@
+   .body-certt {
+       color: #606c76;
+       font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+       font-weight: 300;
+       letter-spacing: .01em;
+       line-height: 1.6;
+       margin: 0;
+       height: 100%;
+       width: 100%;
+   }
+
+   .content {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .certificate-wrapper {
+       margin: 0rem;
+       padding: 1rem;
+       transform: scale(0.8, 0.8);
+       position: relative;
+       left: -80px;
+   }
+
+   .certificate {
+       padding: 1rem;
+       text-align: center;
+       background-color: #ffffff;
+   }
+
+   .certificate__body {
+       padding: 1rem 0;
+   }
+
+   .certificate__title {
+       font-family: Palatino;
+       font-size: 4rem;
+   }
+
+   .certificate__recipient-name {
+       font-family: cursive;
+       font-size: 4rem;
+   }
+
+   .certificate__content {
+       font-size: 2rem;
+       white-space: nowrap;
+   }
+
+   .certificate__description {
+       font-size: 1rem;
+       margin: 0 auto;
+       max-width: 70%;
+   }
+
+   .certificate__date {
+       font-size: 1.5rem;
+   }
+
+   .certificate__signature {
+       font-size: 1.5rem;
+   }
+
+   .certificate__footer {
+       display: flex;
+       justify-content: space-around;
+   }
+
+   .entry-column {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .entry-column__input {
+       font-size: 1.5rem;
+       font-family: cursive;
+   }
+
+   .entry-column__label {
+       border-top: 1px solid;
+       font-size: 1rem;
+   }
+
+   .certificate__signature .entry-column__input {
+       color: #5DADE2;
+   }
+
+   .title-decoration {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .title-decoration__main {
+       line-height: 1em;
+   }
+
+   .title-decoration__sub {
+       font-size: 0.25em;
+   }
+
+   .ribbon {
+       display: inline-block;
+       position: relative;
+       height: 1.5em;
+       line-height: 1.5em;
+       text-align: center;
+       padding: 0 2em;
+       background: #5DADE2;
+       color: #FFF;
+       box-sizing: border-box;
+   }
+
+   .ribbon:before,
+   .ribbon:after {
+       position: absolute;
+       content: '';
+       width: 0px;
+       height: 0px;
+       z-index: 1;
+   }
+
+   .ribbon:before {
+       top: 0;
+       left: 0;
+       border-width: 0.75em 0 0.75em 0.5em;
+       border-color: transparent transparent transparent #fff;
+       border-style: solid;
+   }
+
+   .ribbon:after {
+       top: 0;
+       right: 0;
+       border-width: 0.75em 0.5em 0.75em 0;
+       border-color: transparent #fff transparent transparent;
+       border-style: solid;
+   }
+
+   .frame {
+       position: relative;
+       padding: 1.25rem;
+       background:
+           radial-gradient(circle at top left, transparent 1.25rem, #ca4 1.25rem, #ca4 1.5rem, transparent 1.5rem) left top / 1.5rem 1.5rem no-repeat,
+           radial-gradient(circle at top right, transparent 1.25rem, #ca4 1.25rem, #ca4 1.5rem, transparent 1.5rem) right top / 1.5rem 1.5rem no-repeat,
+           radial-gradient(circle at bottom left, transparent 1.25rem, #ca4 1.25rem, #ca4 1.5rem, transparent 1.5rem) left bottom / 1.5rem 1.5rem no-repeat,
+           radial-gradient(circle at bottom right, transparent 1.25rem, #ca4 1.25rem, #ca4 1.5rem, transparent 1.5rem) right bottom / 1.5rem 1.5rem no-repeat,
+           linear-gradient(90deg, transparent 1.25rem, #ca4 1.5rem) left top / 51% 0.25rem no-repeat,
+           linear-gradient(-90deg, transparent 1.25rem, #ca4 1.5rem) right top / 51% 0.25rem no-repeat,
+           linear-gradient(90deg, transparent 1.25rem, #ca4 1.5rem) left bottom / 51% 0.25rem no-repeat,
+           linear-gradient(-90deg, transparent 1.25rem, #ca4 1.5rem) right bottom / 51% 0.25rem no-repeat,
+           linear-gradient(180deg, transparent 1.25rem, #ca4 1.5rem) left top / 0.25rem 51% no-repeat,
+           linear-gradient(0deg, transparent 1.25rem, #ca4 1.5rem) left bottom / 0.25rem 51% no-repeat,
+           linear-gradient(180deg, transparent 1.25rem, #ca4 1.5rem) right top / 0.25rem 51% no-repeat,
+           linear-gradient(0deg, transparent 1.25rem, #ca4 1.5rem) right bottom / 0.25rem 51% no-repeat;
+   }
+
+   .frame:before {
+       position: absolute;
+       content: "";
+       border: 0.25rem double #ca4;
+       margin: 0.5rem;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+   }
+
+   /* bug fix */
+   @media print {
+       .ribbon:before {
+           left: -0.25px;
+       }
+
+       .ribbon:after {
+           right: -0.25px;
+       }
+
+       .certificate__description {
+           max-width: 90%;
+       }
+   }

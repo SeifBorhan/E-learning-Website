@@ -1,0 +1,18 @@
+.countriesMovekimo{
+    position: relative;
+    left : 60px ;
+    top: 10px;
+    transform: scale(1.2,1.2);
+}
+.lo{
+    position: relative;
+    right: -10px;
+}
+
+.si{
+    position: relative;
+    right: 0px;
+}
+
+
+

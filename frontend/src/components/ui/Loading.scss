@@ -1,0 +1,276 @@
+@import "//classpath:compass/css3";
+$number-of-cubes: 8;
+$cubes-margin: 8px;
+
+$bar-height: 150px;
+$bar-width: 30px;
+$bar-depth: 100px;
+
+$rotX: 3deg;
+$rotY: 0deg;
+$rotZ: 0deg;
+$transX: 0;
+$transY: 0;
+
+$animSpeed: 1s;
+
+$perspective: 2200px;
+
+@for $i from 1 through $number-of-cubes {
+  .cube:nth-child(#{$i}),
+  .cube:nth-child(#{$i}) div {
+    z-index: $i;
+    animation-delay: $i * ($animSpeed/12);
+  }
+}
+
+#vignette {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+  top: 200px;
+  left: 100px;
+  transform: scale(0.2, 0.2);
+
+  background-image: -webkit-radial-gradient(
+    50% 50%,
+    ellipse cover,
+    rgb(179, 23, 23),
+    rgb(179, 23, 23)
+  );
+  background-image: -moz-radial-gradient(
+    50% 50%,
+    ellipse cover,
+    rgb(179, 23, 23),
+    rgb(179, 23, 23)
+  );
+}
+
+#pos {
+  width: ($bar-width + $cubes-margin) * $number-of-cubes;
+  margin: 0 auto;
+}
+
+#container {
+  width: 100%;
+  perspective: $perspective;
+  padding: 20px 60px;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cube {
+  width: $bar-width;
+  height: $bar-height;
+  position: relative;
+  margin-right: $cubes-margin;
+  float: left;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  animation: animCube; /* Safari and Chrome */
+  animation-iteration-count: infinite;
+}
+
+.cube div {
+  position: absolute;
+  display: block;
+  width: $bar-width;
+  height: $bar-height;
+}
+
+.cube .center {
+  width: $bar-width;
+  box-shadow: 0 0 3px rgb(179, 23, 23), inset 0 1px rgb(179, 23, 23);
+  animation: animCenter;
+  animation-iteration-count: infinite;
+}
+
+.cube .bottom {
+  width: $bar-width;
+  height: 10px;
+  bottom: 0;
+  transform: rotateX(90deg);
+  transform-origin: center bottom;
+  animation: animBottom;
+  animation-iteration-count: infinite;
+}
+
+.cube .left {
+  left: 0;
+  transform: rotateY(90deg);
+  transform-origin: left center;
+  animation: animSide;
+  animation-iteration-count: infinite;
+}
+
+.cube .right {
+  right: 0;
+  transform: rotateY(-90deg);
+  transform-origin: right center;
+  animation: animSide;
+  animation-iteration-count: infinite;
+}
+
+.cube .left,
+.cube .center,
+.cube .right,
+.cube .bottom,
+.cube {
+  animation-duration: $animSpeed;
+  animation-timing-function: ease-in-out;
+}
+
+.left,
+.right {
+  background-color: rgb(179, 23, 23);
+  background-image: linear-gradient(top, rgb(179, 23, 23), rgb(179, 23, 23));
+}
+
+.center {
+  background-color: rgb(179, 23, 23);
+  background-image: linear-gradient(top, rgb(179, 23, 23), rgb(179, 23, 23));
+}
+
+.bottom {
+  background-color: rgb(179, 23, 23);
+  background-image: linear-gradient(bottom, rgb(179, 23, 23), rgb(179, 23, 23));
+}
+
+@keyframes animCube {
+  30% {
+    transform: translateZ($bar_height) translatex($transX) translateY($transY)
+      rotatex($rotX) rotatey($rotY) rotateZ($rotZ);
+    box-shadow: 0 0 20px rgb(174, 92, 92), 0 12px 20px 1px rgb(174, 92, 92);
+  }
+
+  100% {
+    transform: translateZ(0px) rotatez(0deg);
+    box-shadow: 0 0 30px rgb(174, 92, 92), 0 0 0 0 rgb(174, 92, 92);
+  }
+}
+
+@keyframes animSide {
+  30% {
+    width: $bar-depth;
+    background-color: rgb(179, 23, 23);
+  }
+  95% {
+    width: 10px;
+  }
+}
+
+@keyframes animBottom {
+  30% {
+    height: $bar-depth;
+  }
+  95% {
+    height: 10px;
+  }
+}
+
+@keyframes animCenter /* Safari and Chrome */ {
+  20% {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 3px rgb(255, 0, 0), inset 0 1px rgb(255, 0, 0);
+  }
+  65% {
+    box-shadow: 0 0 3px rgb(255, 0, 0), inset 0 1px rgb(255, 0, 0);
+  }
+}
+
+// .bg {
+//   background: #000000;
+// }
+// .ball {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   margin: -80px 0 0 -60px;
+//   width: 120px;
+//   height: 120px;
+//   padding: 6px;
+//   border-radius: 100%;
+//   box-shadow: inset 0 0 20px -5px rgb(0, 0, 0),
+//     inset 0 -40px 40px -20px rgb(0, 0, 0);
+//   margin: 0;
+//   padding: 0;
+//   -webkit-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+// .ball:before {
+//   position: absolute;
+//   content: "";
+//   width: 40%;
+//   height: 25%;
+//   top: 20px;
+//   left: 10px;
+//   background: rgba(0, 0, 0, 0.1);
+//   border-radius: 100%;
+//   -webkit-transform: rotate(-45deg);
+//   transform: rotate(-45deg);
+//   margin: 0;
+//   padding: 0;
+//   -webkit-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+// .wave {
+//   width: 100%;
+//   height: 100%;
+//   border-radius: 100%;
+//   background: url(https://i.imgur.com/uFpLbYt.png);
+//   -webkit-animation: wave-animation 1s infinite linear,
+//     loading-animation 10s infinite linear alternate;
+//   animation: wave-animation 1s infinite linear,
+//     loading-animation 10s infinite linear alternate;
+//   background-size: 200px 100px;
+//   background-repeat: repeat-x;
+//   margin: 0;
+//   padding: 0;
+//   -webkit-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+// .delay {
+//   -webkit-animation-delay: 0.3s;
+//   animation-delay: 0.3s;
+//   margin: 0;
+//   padding: 0;
+//   -webkit-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+// @-webkit-keyframes wave-animation {
+//   0% {
+//     background-position: 0 bottom;
+//   }
+//   100% {
+//     background-position: 200px bottom;
+//   }
+// }
+// @keyframes wave-animation {
+//   0% {
+//     background-position: 0 bottom;
+//   }
+//   100% {
+//     background-position: 200px bottom;
+//   }
+// }
+// @-webkit-keyframes loading-animation {
+//   0% {
+//     background-size: 200px 0px;
+//   }
+//   100% {
+//     background-size: 200px 200px;
+//   }
+// }
+// @keyframes loading-animation {
+//   0% {
+//     background-size: 200px 0px;
+//   }
+//   100% {
+//     background-size: 200px 200px;
+//   }
+// }

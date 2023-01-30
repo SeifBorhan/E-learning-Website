@@ -1,0 +1,7 @@
+subtitle id = 63851ac322226706ac7b5b0c
+course id = 63851c4552d5434018c94b9c
+instructor id = 638518c3898c88e0800b18f6
+trainees:
+
+hambozo = 638519fe55611a69746ab409
+cantoli = 63879d4b9c0acdf77120f56d

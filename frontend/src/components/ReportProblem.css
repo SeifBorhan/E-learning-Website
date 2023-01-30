@@ -1,0 +1,180 @@
+.report-problem-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+.report-problem-group6749 {
+  top: -40px;
+  left: 300px;
+  width: 863px;
+  height: 824px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: gray;
+  border-width: 1px;
+  border-style: none;
+  border-width: 0;
+  border-radius: 18px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  transform: scale(0.6, 0.6);
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  z-index: 102;
+}
+.report-problem-group6748 {
+  top: 43px;
+  left: 32px;
+  width: 801px;
+  height: 738px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.report-problem-container1 {
+  top: 0px;
+  left: 0px;
+  width: 793px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: gray;
+  border-width: 1px;
+  flex-direction: row;
+  border-style: solid;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.report-problem-text {
+  top: 0px;
+  left: 7px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 134.187508%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.report-problem-container2 {
+  top: 149px;
+  left: 16px;
+  width: 368px;
+  height: 60px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.report-problem-text1 {
+  top: 105px;
+  left: 17px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 134.187508%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.report-problem-container3 {
+  top: 301px;
+  left: 17px;
+  width: 784px;
+  height: 348px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.report-problem-text2 {
+  top: 241px;
+  left: 22px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 134.187508%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.report-problem-group6747 {
+  top: 681px;
+  left: 609px;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.report-problem-text3 {
+  top: 14px;
+  left: 61px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: SemiBold;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 134.187508%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.closeIcon1 {
+  position: relative;
+  left: 740px;
+  top: -0px;
+  transform: scale(1.5, 1.5);
+}
+.closeIcon1:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+
+
+.kimo{
+    transform: scale(1.3,1.3);
+    position: relative;
+    left: 30px;
+    top: -20px;
+    color: red;
+}
+
+.disc2{
+    width: 110px;
+    position: relative;
+    top: 20px;
+}
+.disc{
+    width: 300px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}

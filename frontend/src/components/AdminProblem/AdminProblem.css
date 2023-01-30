@@ -1,0 +1,63 @@
+.comment-section {
+  display: block;
+  border-radius: 11px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.student-view-comment {
+  position: relative;
+  width: 400px;
+  left: 30px;
+  padding-left: 5px;
+  margin-top: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: red;
+}
+
+.student-view-comment:last-child {
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.comment-content {
+  font-size: 14px;
+}
+
+.comments {
+  color: red;
+}
+
+.col6 {
+  width: 700px;
+  transform: scale(0.9, 0.9);
+}
+
+.cf {
+  width: 700px;
+}
+
+.commentProblem {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  bottom: -10px;
+  left: 10px;
+}
+
+.createCourseBTN101 {
+  position: relative;
+  top: -45px;
+  left: 560px;
+}

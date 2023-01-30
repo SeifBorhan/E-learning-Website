@@ -1,0 +1,16 @@
+.subtitle-accord {
+  max-width: 400px;
+  height: auto;
+  min-height: 80px;
+}
+
+.subtitle-accordText {
+  position: relative;
+  top: 40px;
+  left: -180px;
+}
+.subtitle-accord1 {
+  max-width: 400px;
+  height: 100%;
+  min-height: 80px;
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+.cont {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 20px;
+  width: 355px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 32px;
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  top: 200px;
+  left: 550px;
+}
+
+.comment-box {
+  padding: 5px;
+}
+
+.comment-area textarea {
+  resize: none;
+  border: 1px solid #ad9f9f;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(255, 0, 0) !important;
+}
+
+.send {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.send:hover {
+  color: #fff;
+  background-color: #f50202;
+  border-color: #f50202;
+}
+
+.btnSub {
+  position: relative;
+
+  height: 30px;
+  width: 100px;
+  left: 70px;
+  top: 10px;
+}
+
+.btnSub:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px -2px #000000;
+}
+
+.btnSubText {
+  position: relative;
+  top: 2px;
+  left: 23px;
+  color: white;
+}
+
+.textf {
+  position: relative;
+  top: 5px;
+}
+
+.closeIconRate {
+  position: relative;
+  width: 30px;
+  top: 0px;
+  left: 280px;
+}
